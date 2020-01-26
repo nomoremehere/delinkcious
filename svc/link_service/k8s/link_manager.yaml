@@ -23,8 +23,8 @@ spec:
         ports:
         - containerPort: 8080
         envFrom:
-        - configMapRef:
-          name: link-manager-config
+          - configMapRef:
+              name: link-manager-config
 ---
 apiVersion: v1
 kind: Service
