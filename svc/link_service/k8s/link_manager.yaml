@@ -22,8 +22,8 @@ spec:
         image: farshidgilak/delinkcious-link:0.2
         ports:
         - containerPort: 8080
-      envFrom:
-      - configMapRef:
+        envFrom:
+        - configMapRef:
           name: link-manager-config
 ---
 apiVersion: v1
