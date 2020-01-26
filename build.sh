@@ -26,3 +26,5 @@ for svc in *; do
     docker push "${STABLE_IMAGE}"
 done
 cd $ROOT_DIR
+
+
